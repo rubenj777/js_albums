@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(223, 223, 223);
+  display: flex;
+}
+
+#albums {
+  align-items: center;
+}
+
+#albums div {
+  display: flex;
+  align-items: center;
+}
+
+.fa-pen {
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#albums img {
+  width: 250px;
+  margin: 35px;
+}
+
+#albums {
+  width: 1000px;
+  align-items: center;
+}
+
+#form {
+  width: 400px;
+  margin-right: 25px;
+}
+
+#form ul li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 10px;
+}
+
+#form #save {
+  width: 33%;
+}
+
+.hide {
+  display: none;
+}

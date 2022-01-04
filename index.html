@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script src="main.js" defer></script>
+    <title>albums</title>
+  </head>
+  <body>
+    <form id="form" data-mode="add">
+      <ul>
+        <li>
+          <label for="image">Image de l'album</label>
+          <input type="text" id="image" name="image" />
+        </li>
+        <li>
+          <label for="nom">Nom de l'album</label>
+          <input type="text" id="name" name="name" />
+        </li>
+        <li>
+          <label for="artiste">Artiste de l'album</label>
+          <input type="text" id="artist" name="artist" />
+        </li>
+        <li>
+          <label for="label">Label de l'album</label>
+          <input type="text" id="label" name="label" />
+        </li>
+        <li>
+          <label for="annee">Année de parution</label>
+          <input type="text" id="year" name="year" />
+        </li>
+        <li>
+          <label for="genre">Genre de l'album</label>
+          <input type="text" id="genre" name="genre" />
+        </li>
+        <li>
+          <label for="duree">Durée de l'album</label>
+          <input type="text" id="duration" name="duration" />
+        </li>
+        <li><input type="submit" id="save" value="Envoyer !" /></li>
+      </ul>
+    </form>
+    <div id="albums"></div>
+  </body>
+</html>
